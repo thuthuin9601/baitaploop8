@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let nhietdo=Number(prompt('Hãy nhập nhiệt độ phòng'));
+        while(nhietdo>100||nhietdo<20){
+            if(nhietdo>100){
+                nhietdo=Number(prompt('Hãy giảm nhiệt độ phòng'));
+            } else{
+                nhietdo=Number(prompt('Hãy tăng nhiệt độ phòng'));
+            }
+        }
+        alert("Đây là nhiệt độ vừa phải");
+    </script>
+</body>
+</html>
